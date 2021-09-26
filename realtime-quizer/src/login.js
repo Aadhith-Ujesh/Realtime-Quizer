@@ -1,14 +1,21 @@
 import './login.css'
-// import './index.css'
 
 function login(){
    return(
-        <div className="login bg-gray-200">
-            <label className="max-w-sm rounded overflow-hidden shadow-lg">Enter username</label>
-            <input type = "text" name = "username"/><br/>
-            <label>Enter password</label>
-            <input type = "password" name = "password"/>
+        <div>
+            <div className="form">
+                <h1 id="title">QUIZZIE</h1>
+                <form className="log">
+                    <h1>LOGIN</h1>  
+                    <input type="text" name="uname" placeholder="Username"/>
+                    <input type="password" name="password" placeholder="Password"/>
+                    <input type="submit" value="Login"/>
+                </form>
+            </div>
+            
         </div>
+
+
    );   
 }
 
